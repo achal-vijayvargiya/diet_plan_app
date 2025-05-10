@@ -1,0 +1,25 @@
+[server]
+# Automatically reload app when code is changed (great for development)
+runOnSave = true
+
+# Disable CORS for easier local testing and redirection
+enableCORS = false
+
+# Set a custom port (optional — default is 8501)
+port = 8501
+
+# Allow running without browser auto-launch (optional)
+headless = true
+
+[theme]
+# Customize your app's look
+primaryColor = "#1E90FF"                  # Dodger Blue - fresh and professional
+backgroundColor = "#FFFFFF"               # White background
+secondaryBackgroundColor = "#F8F9FA"      # Very light grey for sidebar/panels
+textColor = "#262730"                     # Dark grey text
+font = "sans serif"                       # Clean modern font
+
+[client]
+# Show Python error tracebacks to help you debug
+showErrorDetails = true
+toolbarMode = "auto"                      # Hide toolbar unless needed
