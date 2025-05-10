@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 def run_streamlit_app():
     # Get the absolute path to app.py
-    app_path = os.path.join(BASE_DIR, "ui\\streamlit_app.py")
+    app_path = os.path.join(BASE_DIR, "ui", "streamlit_app.py")
     # Run streamlit app
     subprocess.run([sys.executable, "-m", "streamlit", "run", app_path])
 
