@@ -2,7 +2,7 @@ import sys
 import streamlit as st
 import tempfile
 import os
-from main import BASE_DIR
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 from app.agents.diet_agent import generate_diet_plan
 from ui.components.Food_list import food_list
