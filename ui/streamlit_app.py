@@ -1,6 +1,9 @@
+import sys
 import streamlit as st
 import tempfile
 import os
+from main import BASE_DIR
+sys.path.append(BASE_DIR)
 from app.agents.diet_agent import generate_diet_plan
 from ui.components.Food_list import food_list
 from app.loaders.blood_report_loader import (
