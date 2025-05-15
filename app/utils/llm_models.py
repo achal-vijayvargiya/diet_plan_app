@@ -6,4 +6,4 @@ model = ChatGroq(model_name="llama-3.3-70b-versatile",api_key = st.secrets["GROQ
 googleModel = ChatGoogleGenerativeAI(model="gemini-2.0-flash",google_api_key=st.secrets["GEMINI_API_KEY"])
 
 def get_llm_model():
-    return model; 
+    return googleModel; 
